@@ -1,0 +1,759 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.logo-photo{
+    width: 150px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.menu-bar{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+.menu-bar ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.menu-bar ul li{
+    font-size: 18px;
+    margin: 0%;
+    padding: 10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar{
+    font-size: 18px;
+}
+.sub-menu-1{
+    display: none;
+    width: 250px;
+    height: 450px;
+}
+.categories:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+   
+    background-color: white;
+    margin-top: 15px;
+  box-shadow: 1px 1px black; 
+  z-index: 3;
+}
+.fa {
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+    width: 250px;
+}
+.hover-me:hover .sub-menu-2{
+display: block;
+margin-right: -270px;
+float: right;
+background-color: white;
+box-shadow: 1px 1px black; 
+
+}
+.search{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.second-list{
+    display: flex;
+    padding-left: 20px;  
+}
+.udemy-title{
+    color: #ccccc8;
+    padding-left: 5px;
+}
+.left-uav-bar img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.personal-photo{
+    border: gray 1px solid;
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   margin-top: 25px;
+   margin-left: 10px;
+}
+.second-nav-bar{
+    display: flex;
+    padding-left: 10px;
+    margin-left: 10px;
+    
+}
+.second-nav-bar-list{
+    display: flex;
+    list-style-type: none;
+   
+    
+}
+.second-nav-bar .second-nav-bar-list li{
+    padding-left: 25px;
+}
+
+.development ,.business ,.music ,.health ,.Finance ,.it ,.Office ,.personal ,.Design ,.Marketing{
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    list-style-type: none;
+    background-color: black;  
+    width: 80%; 
+    height: 50px;
+    display: none;
+    color: white;
+    z-index: 2;
+}
+.web-development:hover{
+    color: #69bfce;
+}
+.Mobile-Development:hover{
+    color: #69bfce;
+}
+.Programming-Languages:hover{
+    color: #69bfce;
+}
+.Game-Development:hover{
+    color: #69bfce;
+}
+.Database-design:hover{
+    color: #69bfce;
+}
+.Software-Testing:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .development{
+    display: block;
+    display: flex;
+    margin-top: 0%;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+.second-nav-bar .second-nav-bar-list li:hover .business{
+    display: block;
+    display: flex;
+    margin-top: 0%;
+    align-items: center;
+    width: 80%;
+    margin-left: -110px;
+
+}
+.Entrepreneurship:hover{
+    color: #69bfce;
+}
+.Communications:hover{
+    color: #69bfce;
+}
+.Managment:hover{
+    color: #69bfce;
+}
+.Sales:hover{
+    color: #69bfce;
+}
+.Business-Strategy:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .music{
+    display: block;
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1090px;
+   width: 80%;
+
+}
+.Instruments:hover{
+    color: #69bfce;
+}
+.Music-production:hover{
+    color: #69bfce;
+}
+.Music-fundamentals:hover{
+    color: #69bfce;
+}
+.Vocal:hover{
+    color: #69bfce;
+}
+.Music-techniques:hover{
+    color: #69bfce;
+}
+.Music-Software:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .health{
+    display: block;
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -950px;
+   width: 80%;
+
+}
+.Fitness:hover{
+    color: #69bfce;
+}
+.General:hover{
+    color: #69bfce;
+}
+.Sports:hover{
+    color: #69bfce;
+}
+.Nurrition:hover{
+    color: #69bfce;
+}
+.Yoga:hover{
+    color: #69bfce;
+}
+.Mental:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .Finance{
+    display: block;
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -190px;
+   width: 80%;
+
+}
+.Accounting:hover{
+    color: #69bfce;
+}
+.Cryptocurrency:hover{
+    color: #69bfce;
+}
+.Financet:hover{
+    color: #69bfce;
+}
+.Financial:hover{
+    color: #69bfce;
+}
+.Investing:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .it{
+    display: block;
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -350px;
+   width: 80%;
+
+}
+.It-certification:hover{
+    color: #69bfce;
+}
+.Net:hover{
+    color: #69bfce;
+}
+.Hard:hover{
+    color: #69bfce;
+}
+.Operateing:hover{
+    color: #69bfce;
+}
+.Other:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .Office{
+        display: block;
+        display: flex;
+        margin-top: 0%;
+        justify-content: center;
+        align-items: center;
+        margin-left: -480px;
+        width: 80%;
+
+}
+.Microsoft:hover{
+    color: #69bfce;
+}
+.Apple:hover{
+    color: #69bfce;
+}
+.Google:hover{
+    color: #69bfce;
+}
+.Sap:hover{
+    color: #69bfce;
+}
+.Oracle:hover{
+    color: #69bfce;
+}
+.Otherg:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .personal{
+        display: block;
+        display: flex;
+        margin-top: 0%;
+        justify-content: center;
+        align-items: center;
+        margin-left: -630px;
+        width: 80%;
+
+}
+.Personalf:hover{
+    color: #69bfce;
+}
+.productivity:hover{
+    color: #69bfce;
+}
+.Leadership:hover{
+    color: #69bfce;
+}
+.Career:hover{
+    color: #69bfce;
+}
+.Parenting:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .Design{
+        display: block;
+        display: flex;
+        margin-top: 0%;
+        justify-content: center;
+        align-items: center;
+        margin-left: -800px;
+        width: 80%;
+}
+.Webb:hover{
+    color: #69bfce;
+}
+.Graphic:hover{
+    color: #69bfce;
+}
+.Tools:hover{
+    color: #69bfce;
+}
+.User:hover{
+    color: #69bfce;
+}
+.Gamee:hover{
+    color: #69bfce;
+}
+.Thinking:hover{
+    color: #69bfce;
+}
+.second-nav-bar .second-nav-bar-list li:hover .Marketing{
+        display: block;
+        display: flex;
+        margin-top: 0%;
+        justify-content: center;
+        align-items: center;
+        margin-left: -870px;
+        width: 80%;
+        position: absolute;
+
+}
+.Digitall:hover{
+    color: #69bfce;
+}
+.Engine:hover{
+    color: #69bfce;
+}
+.Social:hover{
+    color: #69bfce;
+}
+.Branding:hover{
+    color: #69bfce;
+}
+.Maeketingg:hover{
+    color: #69bfce;
+}
+.Automation:hover{
+    color: #69bfce;
+}
+.back-ground{
+    width: 100%;
+    position: relative;
+}
+.header-title{
+    position: absolute;
+    width: 530px;
+    height: 180px;
+    background-color: white;
+    margin-top: -350px;
+    margin-left: 50px;
+}
+.header-title h1{
+    font-size: 3.2rem;
+    color: #3c3b37;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.header-title p{
+    font-size: 1.6rem;
+    color: #3c3b37;
+    padding-left: 20px;
+    margin-top: -20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.middle-header{
+    display: flex;
+    background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg)
+     repeat-x 
+     #003640;
+    width: 97%;
+    margin-left: 20px;
+    height: 100px;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    border-radius: 5px;  
+}
+.middle-header h2{
+    clear: both;
+    color: #fff;
+    font-size: 1.6rem;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.middle-header p{
+    clear: both;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.button1{
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 3px;
+    background-color:#0f7c90 ;
+    margin-left: 220px;
+}
+.button1:hover{
+    background-color: #003640;
+}
+.button2{
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 3px;
+    background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg)
+    repeat-x 
+    #003640;
+    margin-left: 10px;
+
+}
+.foot-header h1{
+    font-size: 3.2rem;
+    color: #3c3b37;
+    margin-left: 30px;
+}
+.foot-header h3{
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 2.1rem;
+    color: #3c3b37;
+    margin-left: 30px;
+}
+.section{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+    
+
+}
+.online-courses , .onlinee-courses{
+    position: relative;
+    margin-top: -20px;
+    border: 1px solid rgb(236, 236, 236);
+    margin-left: 30px;
+    height: 350px;
+    
+}
+.ISTQB{
+    display: block;
+    
+}
+.haatem{
+    width: 230px;
+    position: relative;
+}
+.ISTQB h1{
+    color: #3a383b;
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    margin-bottom:.4rem;
+    float: left;
+    text-align: left;
+    margin-left: 0%;
+}
+.ISTQB .name{
+    color: #73726c;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    font-size: 1.0rem;
+    display: block;
+    
+  
+}
+
+.star{
+    display: block;
+    color:#eb8a2f ;
+    justify-self: flex-end;
+    font-size: .9rem;
+    float:left;
+   
+    
+    
+}
+.price{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1px;
+    float: left;
+    clear: both;
+   
+}
+span{
+    font-size: 1rem;
+    color: #73726c;
+    text-decoration: line-through;
+}
+.fluter{
+    width: 269px;
+    height: 130px;
+    position: relative;
+}
+.best{
+    background-color: #ffe799;
+    color: #593d00;
+    font-weight: bold;
+    width: 80px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.flash{
+    transform: scale(0);
+    margin-top: -300px;
+    padding: 20px;
+    width: 350px;
+    position: absolute;
+    border: 1px solid rgb(236, 236, 236);
+    margin-left: 30px;
+    z-index: 5;
+    background-color: white;
+    transition: all .5s ease-in-out;
+    margin-left: 200px;
+}
+.link-course{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #3c3b37;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.link-course:hover{
+    color: #3a89bd;
+}
+.p-course{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #2d8643;
+}
+.p2-course{
+    margin-left: 20px;
+    color: #73726c;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.h-course{
+    font-size: 1.4rem;
+    color: #3a89bd;
+    margin-left: 20px;
+}
+.list-course{
+    list-style:square;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
+.button-course{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #fd566b;
+    border: none;
+    border-radius: 2px;
+    transition: all 1s ease-in-out;
+    margin-top: 20px;
+   
+}
+.button-course:hover{   
+    background-color: red;
+}
+.icon-course{
+    float: right;
+    
+    width: 70px;
+    height: 70px;
+}
+
+.section .online-courses:hover .flash{
+    transform: scale(1);
+    
+
+}
+.flash1{
+    transform: scale(0);
+    margin-top: -400px;
+    padding: 20px;
+    width: 350px;
+    position: absolute;
+    border: 1px solid rgb(236, 236, 236);
+    margin-left: 30px;
+    z-index: 5;
+    background-color: white;
+    transition: all .5s ease-in-out;
+    margin-left: 200px;
+}
+.section .onlinee-courses:hover .flash1{
+    transform: scale(1);
+
+}
+.flash2{
+    transform: scale(0);
+    margin-top: -300px;
+    padding: 20px;
+    width: 350px;
+    position: absolute;
+    border: 1px solid rgb(236, 236, 236);
+    margin-left: 30px;
+    z-index: 5;
+    background-color: white;
+    transition: all .5s ease-in-out;
+    margin-left: 200px;
+}
+.section .onlinee-courses:hover .flash2{
+    transform: scale(1);
+
+}
+.flash3{
+    transform: scale(0);
+    margin-top: -300px;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    border: 1px solid rgb(236, 236, 236);
+    margin-left: 30px;
+    z-index: 5;
+    background-color: white;
+    transition: all .5s ease-in-out;
+    margin-left: -200px;
+}
+.section .onlinee-courses:hover .flash3{
+    transform: scale(1);
+
+}
+.flash4{
+    transform: scale(0);
+    transition: all 5s ease-in-out;
+    margin-top: -300px;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    border: 1px solid rgb(236, 236, 236);
+    margin-left: 30px;
+    z-index: 5;
+    background-color: white;
+    transition: all .5s ease-in-out;
+    margin-left: -200px;
+}
+.section .onlinee-courses:hover .flash4{
+    transform: scale(1);
+
+}
+
+.middlee-section h1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: #3c3b37;
+    
+   
+}
+.buttonss{
+    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.button-in{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    justify-content: space-around;
+    justify-content: space-between;
+    color: #0f7c90;
+    margin: 20px;
+    font-size: 20px;
+    
+    
+}
+.button-in:hover{
+    width: 220px;
+    height: 90px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    justify-content: space-around;
+    justify-content: space-between;
+    color: #0d2225;
+    margin: 20px;
+    font-size: 20px;
+    
+    
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #3c3b37;
+}
+
+
+
+
+
+
